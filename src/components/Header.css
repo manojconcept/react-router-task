@@ -1,0 +1,17 @@
+.headerContent {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+.btnheaderContent{
+    border: none;
+    background-color: white;
+}
+.btnheaderContent:hover{
+    color: #0dba4b;
+    cursor: pointer;
+}
