@@ -45,13 +45,13 @@ const CyberSecurity = () => {
       
     return (
         <>
-          <div className="container">
-                <Header />
-                <div className="row row-cols-1 row-cols-md-2 g-4">
+         <Header />
+          <div className="container" style={{marginBottom:"3%"}}>
+                <div className="row row-cols-1 row-cols-md-3 g-4">
                     {cybersecurityObjects.map((data, index) => (
                         <div className="col" key={index}>
                             <div className="card">
-                                <img className="card-img-top" src="https://media.licdn.com/dms/image/D5612AQE0r5WC8r0HQg/article-cover_image-shrink_720_1280/0/1657711469335?e=2147483647&v=beta&t=y46kqfqImgi-IbshBGRs3lMz1HCTBvL8RjFAILShitg" alt="Card image cap" />
+                                <img className="card-img-top" src="https://media.licdn.com/dms/image/D5612AQE0r5WC8r0HQg/article-cover_image-shrink_720_1280/0/1657711469335?e=2147483647&v=beta&t=y46kqfqImgi-IbshBGRs3lMz1HCTBvL8RjFAILShitg" alt="CardCap" />
                                 <div className="card-body">
                                     <h5 className="card-title">{`${index + 1}. ${data.topic}`}</h5>
                                     <p className="card-text">{data.description}</p>

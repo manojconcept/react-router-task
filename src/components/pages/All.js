@@ -127,13 +127,13 @@ const All = () => {
     ];
     return (
         <>
-            <div className="container">
-                <Header />
-                <div className="row row-cols-1 row-cols-md-2 g-4">
+         <Header />
+            <div className="container" style={{marginBottom:"3%"}}>
+                <div className="row row-cols-1 row-cols-md-3 g-4">
                     {allCourses.map((data, index) => (
                         <div className="col" key={index}>
                             <div className="card">
-                                <img className="card-img-top" src="https://img.freepik.com/free-vector/tech-banner-illustration-desktop-computer_107791-7920.jpg" alt="Card image cap" />
+                                <img className="card-img-top" src="https://img.freepik.com/free-vector/tech-banner-illustration-desktop-computer_107791-7920.jpg" alt="Cardcap" />
                                 <div className="card-body">
                                     <h5 className="card-title">{`${index + 1}. ${data.technology}`}</h5>
                                     <p className="card-text">{data.description}</p>

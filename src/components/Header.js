@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
-import "./Header.css"
+import "./Header.css";
 
 let Header = () => {
     return (
         <>
-            <nav className="header">
-                <div className="headerContent">
+            <nav className="header container">
+                <div className="headerContent container">
                     <Link to={"/"}><button className="btnheaderContent">All</button></Link>
                     <Link to={"/FullStackDev"}><button className="btnheaderContent">FULL STACK</button></Link>
                     <Link to={"/DataScience"}> <button className="btnheaderContent">DATA SCIENCE</button></Link>

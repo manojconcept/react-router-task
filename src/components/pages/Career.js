@@ -48,13 +48,13 @@ const Career = () => {
     
     return (
         <>   
-              <div className="container">
+              <div className="container" style={{marginBottom:"3%"}}>
                 <Header />
-                <div className="row row-cols-1 row-cols-md-2 g-4">
+                <div className="row row-cols-1 row-cols-md-3 g-4">
                     {careerObjects.map((data, index) => (
                         <div className="col" key={index}>
                             <div className="card">
-                                <img className="card-img-top" src="https://img.freepik.com/premium-photo/human-resources-recruitment-people-networking-concept_31965-13335.jpg" alt="Card image cap" />
+                                <img className="card-img-top" src="https://img.freepik.com/premium-photo/human-resources-recruitment-people-networking-concept_31965-13335.jpg" alt="CardCap" />
                                 <div className="card-body">
                                     <h5 className="card-title">{`${index + 1}. ${data.aspect}`}</h5>
                                     <p className="card-text">{data.description}</p>

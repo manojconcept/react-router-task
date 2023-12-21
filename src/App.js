@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-// import WebBody from "./components/WebBody";
 import All from "./components/pages/All";
 import DataScience from "./components/pages/DataScience";
 import FullStack from "./components/pages/FullStack";
 import CyberSecurity from "./components/pages/CyberSecurity";
 import Career from "./components/pages/Career";
+import "./components/Header.css"
 
 let App = () => {
   return (
